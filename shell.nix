@@ -4,5 +4,10 @@
     shellHook = ''
         echo "Welcome to to the nix-shell for www.mobilehaskell.org"
         echo "Run "yarn start", to launch the local development preview"
+
+        function build() {
+            yarn install --frozen-lockfile
+            yarn build
+        }
     '';
 }
