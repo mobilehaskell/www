@@ -1,47 +1,26 @@
 ---
 sidebar_position: 1
+slug: /
 ---
 
-# Tutorial Intro
+# Mobile Haskell Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Haskell is a great language for writing reliable and complex code.  It also has
+it's strength in refactoring, where type-guided refactoring can help rewrite
+code easily.
 
-## Getting Started
+This can make it a good choice for building sophisticated business logic.
 
-Get started by **creating a new site**.
+However Haskell is not known for being particularly friendly to deploy anywhere
+outside of server environments as services.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+This website's goal is to change this, and illustrate how we can use Haskell for
+mobile, and desktop applications, as well as for building applications to run on
+Single Board Computers (SBCs) like the Raspberry Pi and others.
 
-### What you'll need
+A large focus of this side is therefore dedicated to highlighting the cross
+compilation capabilities the Glasgow Haskell Compiler (GHC) has gained over the
+years.
 
-- [Node.js](https://nodejs.org/en/download/) version 14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Let's jump into a quick tutorial and build a simple library we can then use in
+a mobile application.
